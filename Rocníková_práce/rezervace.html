@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<title>Rezervace</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+
+<h1>Rezervace pobytu</h1>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="resorty.html">Resorty</a></li>
+<li><a href="vylety.html">Výlety</a></li>
+<li><a href="kontakt.html">Kontakt</a></li>
+</ul>
+</nav>
+
+</header>
+
+<main>
+
+<a href="index.html" class="btn">
+Zpět
+</a>
+
+<h2 class="section-title">
+Rezervační formulář
+</h2>
+
+<p style="text-align:center; margin-bottom:40px;">
+Vyplňte formulář a my vás budeme kontaktovat ohledně rezervace pobytu.
+</p>
+
+<div class="card" style="max-width:700px; margin:auto;">
+
+<div class="card-content">
+
+<form>
+
+<label>Jméno</label><br>
+<input type="text" required style="width:100%; padding:10px;">
+
+<br><br>
+
+<label>Email</label><br>
+<input type="email" required style="width:100%; padding:10px;">
+
+<br><br>
+
+<label>Datum příjezdu</label><br>
+<input type="date" style="width:100%; padding:10px;">
+
+<br><br>
+
+<label>Datum odjezdu</label><br>
+<input type="date" style="width:100%; padding:10px;">
+
+<br><br>
+
+<label>Typ pobytu</label><br>
+
+<select style="width:100%; padding:10px;">
+
+<option>Basic pobyt</option>
+<option>Standard pobyt</option>
+<option>Luxury pobyt</option>
+
+</select>
+
+<br><br>
+
+<label>Počet osob</label><br>
+<input type="number" min="1" style="width:100%; padding:10px;">
+
+<br><br>
+
+<label>Zpráva</label><br>
+<textarea rows="5" style="width:100%; padding:10px;"></textarea>
+
+<br><br>
+
+<button type="submit" class="btn">
+Odeslat rezervaci
+</button>
+
+</form>
+
+</div>
+</div>
+
+</main>
+
+<footer>
+<p>© 2026 Phu Quoc Travel</p>
+</footer>
+
+</body>
+</html>
